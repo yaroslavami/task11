@@ -42,21 +42,42 @@ h1{
     height: 240px;
     width: 190px;
     border-radius: 10px;
-    border: solid 4px rgb(7, 7, 103);
+    margin:2%;
+    border: 4px solid rgb(7, 7, 103);
+}
+.urls{
+    padding: 15%;
+}
+.github{
+    height: 25px;
+    border-radius: 50%;
+    margin:1%;
+    border: 3px dotted rgb(163, 14, 14);
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 0, 39);
+    padding: 2%;
 }
 .num,.email,.adr{
     padding: 1%;
-    border: 1px solid white;
     border-radius: 10px;
     color: rgb(86, 9, 145);
 }
+.num,.email{
+    border: 1px solid white;
+}
+.adr{
+    border: 1px dashed white;
+}
 h2{
-    padding: 5%;
+    padding: 10% 2% 0 0;
+    font-size: larger;
 }
 h3{
-    padding: 10% 2% 0 0;
+    padding: 7%;
 }
-ul{
+ol{
     padding: 2%;
 }
 li{
