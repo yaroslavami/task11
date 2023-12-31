@@ -12,6 +12,7 @@ main{
     justify-content: center;
     border-radius: 50px;
     margin: 2%;
+    filter: drop-shadow();
 }
 .front{
     min-height: 500px;
